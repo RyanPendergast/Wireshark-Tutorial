@@ -1,4 +1,15 @@
 To find out which version of ssh an attacker is using
 - type in ssh into display filter
-To find out what tools an attacker used to sieze open port connections
-- 
+To find out which IP Addresses had port 2200 open
+- tcp.port == 2200 && tcp.flags == 0x02
+* tcp.port directs to the port
+* tcp.flag najes sure the filter will match the first packet in a tcp connection
+
+
+
+
+
+
+
+
+
