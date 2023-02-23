@@ -1,0 +1,10 @@
+In a TCP (Transmission Control Protocol) connection, flags are used to indicate a particular state of the connection or to provide additional information for troubleshooting or controlling the connection [1]. TCP flags are a set of six 1-bit fields that are used in the TCP header to provide control information for the transmission of data packets. The six flags are:
+
+URG (urgent): Indicates that the urgent pointer field in the TCP header is valid, and the data packet contains urgent data.
+ACK (acknowledge): Indicates that the acknowledgment number field in the TCP header is valid, and the data packet is an acknowledgment packet.
+PSH (push): Indicates that the receiving TCP layer should immediately pass the data payload to the receiving application, without buffering.
+RST (reset): Indicates that the TCP connection is reset and that all previous data in the connection is discarded.
+SYN (synchronize): Used to initiate a new TCP connection, with the sequence number set to the value of the initial sequence number (ISN).
+FIN (finish): Indicates that the sender has no more data to transmit.
+
+http
