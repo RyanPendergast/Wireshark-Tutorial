@@ -1,0 +1,19 @@
+What browser did the attackers use to access the HMI?
+- Internet Explorer
+- The attackers appeared to use Internet Explorer to access the Human-Machine Interface (HMI). This is because the attack was linked to a vulnerability
+found in Internet Explorer. The vulnerability, known as CVE-2020-0674, is a scripting engine memory corruption vulnerability that can be used to execute
+arbitrary code. This code can then be used to gain access to the HMI and any other systems connected to it. Additionally, Internet Explorer is the default
+browser for many operating systems, making it a popular choice for attackers.
+
+The operating system that appears to be running on the attacker's machine appears to differ from the OS running on 10.1.10.33. Based on the information in 
+the packet capture, what is the most likely explanation?
+- The attackers are spoofing their source address.
+- IP address spoofing is a computer networking technique in which an attacker alters the source address of an IP packet to make it appear to have
+originated from a different machine. This method is frequently used to perform denial-of-service (DoS) attacks, in which an attacker floods a network 
+with traffic that appears to originate from several sources, making it difficult for defenders to filter out malicious data.
+- The packet capture in the given situation demonstrates that the operating system running on the attacker's machine differs from the OS running 
+on the 10.1.10.33 machine. This implies that the attacker is masking their true identity and location by using IP address spoofing. The attacker 
+can avoid detection by modifying the source IP address of their packets, making it appear as though the traffic is originating from a legitimate source.
+- Cybercriminals frequently employ IP address spoofing to conceal their identities and launch attacks against unsuspecting victims. To defend against
+such attacks, network administrators must implement procedures such as filtering incoming traffic, blocking known fake IP addresses, and detecting 
+and mitigating attacks with technologies such as firewalls and intrusion detection systems.
