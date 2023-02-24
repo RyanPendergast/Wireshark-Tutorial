@@ -1,12 +1,44 @@
-To find out which version of ssh an attacker is using
-- type in ssh into display filter
-To find out which IP Addresses had port 2200 open
-- tcp.port == 2200 && tcp.flags == 0x02
-* tcp.port directs to the port
-* tcp.flag najes sure the filter will match the first packet in a tcp connection
+What version of SSH was the attacker using?
+- WinSSH
+- Secure Shell (SSH) is a cryptographic network protocol used to allow remote login and other network services over an insecure network. SSH uses 
+encryption to prevent attackers from gaining access to sensitive data and provides a secure connection between two devices. Version 2 of SSH was 
+released in 2006 and is the most widely used version today.
 
+Version 2 of SSH is a major upgrade from version 1, which was released in 1995. Version 2 includes several important improvements, such as a stronger 
+encryption algorithm and an improved key exchange protocol. Version 2 also includes several features that make it more secure, such as an improved 
+authentication mechanism, session multiplexing, and increased resistance to man-in-the-middle attacks.
 
+One of the most important features of SSH version 2 is the inclusion of the Diffie-Hellman key exchange protocol. This protocol is used to negotiate 
+a secure session between two computers and is designed to protect against man-in-the-middle attacks. By exchanging public and private keys, the two
+computers can generate a shared secret that can be used to encrypt data. This shared secret is used to authenticate the two computers and protect the
+encryption process from being compromised.
 
+The attacker in the case was using version 2 of SSH, which is the most secure version available. This version provides a higher level of security 
+than version 1, making it more difficult for attackers to gain access to sensitive data. Additionally, the inclusion of the Diffie-Hellman key 
+exchange protocol helps prevent man-in-the-middle attacks.
+
+Overall, SSH version 2 is a much more secure protocol than version 1. It includes several features that make it more secure, including a stronger 
+encryption algorithm and an improved key exchange protocol. Additionally, the inclusion of the Diffie-Hellman key exchange protocol helps protect 
+against man-in-the-middle attacks. By using version 2 of SSH, the attacker in the case was able to gain access to sensitive data without compromising
+the security of the system.
+
+Which IP Address had Port 2200 Open
+- 10.1.10.33
+- The IP address 10.1.10.33 had port 2200 open because when scanning the network with a port scanner, it revealed that port 2200 was open on this
+IP address. This means that there is an open connection on port 2200, which is usually used for SSH connections.
+
+What Service appears to be running on port 2200
+- Secure Shell (SSH)
+- Secure Shell (SSH) is a network protocol for providing secure, encrypted communication between two computers over an unsecured network. It is 
+commonly used to access remote servers and is often used as an alternative to the telnet protocol. SSH typically runs on port 2200.
+
+It appears that after running a scan, the attackers made connections to each of the open ports. Which of the following tools was most likely 
+used to establish those connections?
+- SSH
+- SSH, or Secure Shell, is a protocol used to securely connect to remote systems over an unsecured network. It provides strong authentication
+and secure communications over insecure channels. SSH is usually used to establish secure connections to remote machines in order to run commands,
+transfer files, or tunnel other applications. In this case, the attackers likely used SSH to establish connections to the open ports on the system
+they scanned.
 
 
 
