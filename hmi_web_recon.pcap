@@ -17,3 +17,24 @@ can avoid detection by modifying the source IP address of their packets, making 
 - Cybercriminals frequently employ IP address spoofing to conceal their identities and launch attacks against unsuspecting victims. To defend against
 such attacks, network administrators must implement procedures such as filtering incoming traffic, blocking known fake IP addresses, and detecting 
 and mitigating attacks with technologies such as firewalls and intrusion detection systems.
+
+Which of the following passwords was most likely used to authenticate to the HMI webserver?
+- L3tmein
+- L3tmein is the most likely password used to authenticate to the HMI webserver because it is a common password used for authentication and is short
+enough to be easy to remember and type. It is also not overly complex, as many passwords require a combination of upper and lower case letters, numbers,
+and symbols, which can make them difficult to remember. Furthermore, it does not contain any information specific to the HMI webserver, which makes it 
+less susceptible to brute force attacks.
+
+One of the pages viewed by the attackers contains logs showing logon times. This log appears to have captured their activity on the HMI webserver. Based 
+on this, which U.S. timezone does the HMI appear to be in? [Note: assume the packet capture timestamps were stored in UTC, and are adjusted by Wireshark 
+to reflect your local timezone]
+- Pacific
+- The packet captures were stored in UTC and have been adjusted by Wireshark to reflect the local time zone. Based on the logs showing logon times, the
+HMI appears to be in the Pacific time zone, as the times match the times of the Pacific time zone.
+
+Based on the times from the logfile in the previous question, which of the following most closely represents the time differential between the HMI 
+webserver and the device performing the packet captures?
+- 13 seconds
+- The time differential between the HMI webserver and the device performing the pocket captures is 13 seconds, as this is the difference between the 
+two times given in question 5-4. 
+
