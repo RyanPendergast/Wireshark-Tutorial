@@ -1,0 +1,28 @@
+What tool do the attackers appear to be using to probe the webserver on .130?
+- Nessus
+Nessus is a vulnerability scanner that allows attackers to probe webservers on a given IP address or domain. It is used to detect security
+flaws and other weaknesses in a system. It is also used to identify missing patches or misconfigurations in the system. It can be used to 
+detect a wide variety of vulnerabilities, including remote code execution, SQL injection, cross-site scripting, and more. It can be used to
+perform a deep scan of the webserver, which can reveal any existing vulnerabilities and the ability to exploit them.
+
+What username was successfully used to access pages on the webserver on .130?
+- ml1100
+
+What webserver appears to be running on the .130 device?
+- Apache/2.2.19 (Unix) DAV/2 mod_ssl/2.2.19 OpenSSL/1.0.0g PHP/5.2.17 mod_perl/2.0.5 Perl/v5.10.1 appears to be running on the .130 device.
+- The webserver running on the .130 device, Apache 2.2.19. This is indicated in the response header, which contains information about the webserver, 
+such as the version of Apache (2.2.19), the DAV/2 protocol, the OpenSSL/1.0.0g library, the PHP/5.2.17 and the mod_perl/2.0.5 Perl/v5.10.1. This 
+information gives us an indication of the type and version that is working on the .130 device
+
+Which URL request first resulted in an authentication request?
+- /redirect.htm.
+- A redirect request is a request where the server sends a response code to the browser telling it to go to a different URL. This usually happens 
+when the requested URL is not found, and the server wants the browser to go to a different page. In this case, the server is sending a response
+code that requires authentication in order to view the page, so the first request that resulted in an authentication request was /redirect.htm.
+
+What was the URI that returned an embedded reference to an ActiveX control?
+- /dataview.htm
+- /dataview.htm was the URI that returned a reference to an embedded ActiveX control. Microsoft's ActiveX software framework enables programmers
+to construct web-based apps that can communicate with a user's machine. Little programs called ActiveX controls can be downloaded from the Internet 
+and operated in a browser.
+
