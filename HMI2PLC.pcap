@@ -1,0 +1,39 @@
+Which of the following protocols appears to be in use between the two devices
+- Ethernet over IP 
+- A form of communication protocol called Ethernet over IP is used to allow two devices to talk to each other via the Internet. It is a widely
+used protocol in the field of industrial automation, allowing communication between machines like programmable logic controllers (PLCs), industrial PCs,
+and other industrial machinery.
+- The Ethernet protocol, a popular LAN protocol, is the foundation of Ethernet over IP. The majority of Internet communication protocols are built 
+on the TCP/IP protocol stack, on which this system is based. The protocol is utilized to provide inter-device communication via a shared Ethernet 
+connection.
+- The ease of installation and configuration of Ethernet over IP for industrial automation is one of its key benefits. Also, it enables communication
+between gadgets from various vendors so long as their hardware and software are compatible. Because of this, it works well for applications in which 
+various devices must be linked to the same network.
+- Moreover, Ethernet over IP is intended to be dependable and secure. Data is protected while it is being transmitted across the network using 
+encryption. In order to guarantee reliable data delivery, it also makes use of Quality of Service (QoS) technologies. The protocol is also made to be
+fault tolerant, allowing for the seamless continuation of communication even in the event that the primary connection fails.
+- A popular protocol in industrial automation is Ethernet over IP. PLCs, industrial PCs, and other industrial machines can communicate with one another
+thanks to it. It is built to be dependable and secure and is based on the Ethernet protocol. It is a well-liked option for industrial applications 
+because it is also fairly simple to set up and configure.
+
+A number of packets from .20 to .130 appear to have a counter. Which of the following represents the packet offset location of the counter?
+-  "The .20 device requests data at regular intervals."
+- Based on the given information, the best description of the nature of the communications between devices 20 and 130 is that the .20 device 
+requests data at regular intervals. There is no information given about the .130 device sending data at regular intervals or both devices exchanging 
+data at regular intervals.
+
+A number of packets from .20 to .130 appear to have a counter. Which of the following represents the packet offset location of the counter?
+- 0x2a
+- Based on the information provided in the question, we have a range of IP addresses from .20 to .130 that appear to have a counter. We are then 
+asked to determine which of the following represents the packet offset location of the counter: 0x2a, 0x73, 0x42, or 0x26.
+- To answer this question, we need to first understand what a packet offset location is. In computer networking, a packet is a unit of data that is 
+transmitted over a network. A packet offset location refers to the position of a particular field within the packet's header. The offset is typically 
+expressed in hexadecimal notation.
+- Given that we are looking for the offset location of a counter within the packet, we can assume that the counter is likely to be located 
+within the packet's header. In IP packets, the header contains various fields such as the source and destination IP addresses, the protocol type, 
+and various flags.
+- Examining the given options, we can eliminate 0x73, 0x42, and 0x26 since these values do not correspond to any commonly used IP header fields. 
+However, 0x2a is a valid offset for the IP header's "Time to Live" (TTL) field.
+- The TTL field is a counter that is decremented by one each time the packet is forwarded by a router. When the TTL field reaches zero, the packet 
+is discarded. Therefore, it is plausible that the packets within the specified IP address range have a counter that is stored in the TTL field.
+
