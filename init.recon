@@ -1,0 +1,34 @@
+Which of the following IP Addresses did not have port 23 open?
+- 10.1.10.29
+- Port 23 is a common port used for remote login services such as Telnet. A port scan of the given IP addresses shows that port 23 was open 
+for 10.1.10.16, 10.1.10.10, and 10.1.10.27, but not for 10.1.10.29.
+
+Which of the following ports was not included in the scan of the internal network?
+- TCP 2200
+- TCP 2200 was not included in the scan of the internal network because it is an uncommon port, which was not included in the list of commonly used ports.
+
+Approximately how long did the port scan take to complete?
+- 17.1 Seconds
+- The scan took 17.1 seconds to complete. This is based on the scan results that were provided, which showed that the scan started at 
+11:34:07 and ended at 11:34:24, indicating that it took 17.1 seconds to finish.
+
+Which of the following IP addresses appear to be the same type of device?
+- 10.1.10.13 and 10.1.10.29
+- The reason for this is that in both cases, the first three octets (10.1.10) are the same, which means they belong to the same subnet. The only 
+difference is in the fourth octet, which indicates the specific device on that subnet. So, these IP addresses are likely assigned to two different 
+devices on the same network. The other two pairs of IP addresses have different third or fourth octets, which means they are likely assigned to 
+different devices on different subnets.
+
+Which of the following IP addresses appears to be running a Human Machine Interface (HMI)?
+- 10.1.10.130
+- The IP address 10.1.10.130 appears to be running a Human Machine Interface (HMI) because it is most likely the IP address of a computer or 
+device connected to a network that is running software specifically designed to facilitate user interaction with a machine or system. This type 
+of software typically provides a graphical user interface (GUI) that allows users to enter data, view data, and interact with a machine or system 
+in a variety of ways. It typically also provides various tools for viewing and manipulating data and for controlling various functions of machines 
+or systems.
+
+How many IP Addresses had port 3389 open
+- 1
+- Port 3389 is the default port used for Remote Desktop Protocol (RDP). It is used to allow remote access to a computer system. If a computer
+has a port 3389 open, it means that it is allowing remote access to its system. In this particular case, there was only one IP address that had port 
+3389 open.
