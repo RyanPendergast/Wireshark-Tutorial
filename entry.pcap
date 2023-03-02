@@ -3,6 +3,7 @@ What version of SSH was the attacker using?
 - Secure Shell (SSH) is a cryptographic network protocol used to allow remote login and other network services over an insecure network. SSH uses 
 encryption to prevent attackers from gaining access to sensitive data and provides a secure connection between two devices. Version 2 of SSH was 
 released in 2006 and is the most widely used version today.
+- type ssh or tcp.port == 22 into filter bar.
 
 Version 2 of SSH is a major upgrade from version 1, which was released in 1995. Version 2 includes several important improvements, such as a stronger 
 encryption algorithm and an improved key exchange protocol. Version 2 also includes several features that make it more secure, such as an improved 
@@ -26,11 +27,13 @@ Which IP Address had Port 2200 Open
 - 10.1.10.33
 - The IP address 10.1.10.33 had port 2200 open because when scanning the network with a port scanner, it revealed that port 2200 was open on this
 IP address. This means that there is an open connection on port 2200, which is usually used for SSH connections.
+- tcp.port == 2200
 
 What Service appears to be running on port 2200
 - Secure Shell (SSH)
 - Secure Shell (SSH) is a network protocol for providing secure, encrypted communication between two computers over an unsecured network. It is 
 commonly used to access remote servers and is often used as an alternative to the telnet protocol. SSH typically runs on port 2200.
+- 
 
 It appears that after running a scan, the attackers made connections to each of the open ports. Which of the following tools was most likely 
 used to establish those connections?
